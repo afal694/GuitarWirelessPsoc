@@ -1,0 +1,300 @@
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/CE.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Cm3Start.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Cm3Start.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Cm3Start.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/CyDmac.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/CyFlash.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/CyLib.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/CySpc.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYDMAC.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYFITTER.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.H : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC_DMA_dma.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYDMAC.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYFITTER.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYLIB.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC_IntClock.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC_VDAC8.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/DVDAC_VDAC8_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Filter.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Filter_Coefficients.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_Coefficients.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_Coefficients.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Filter_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Filter_PVT.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Filter_RAM_Data.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_RAM_Data.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_RAM_Data.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/IRQ.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/LED.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/MISO.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/MOSI.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Opamp.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Opamp_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SCLK.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SPI.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PVT.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SPI_INT.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_INT.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_INT.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SPI_IntClock.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SPI_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/SS.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/UART.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/UART_BOOT.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_BOOT.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_BOOT.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/UART_INT.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_INT.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_INT.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/UART_IntClock.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/UART_PM.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_PM.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_PM.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/Vout.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout_aliases.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/cyPm.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/cy_em_eeprom.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cy_em_eeprom.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cy_em_eeprom.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/cyfitter_cfg.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/cymetadata.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cymetadata.c 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cymetadata.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/cyutils.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyutils.c 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyutils.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/isr_IRQ.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_IRQ.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_IRQ.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_IRQ.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_IRQ.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/isr_Rx.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_Rx.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_Rx.h G:/RxSinRuio/00_Basic_Rx.cydsn/cyapicallbacks.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_Rx.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_Rx.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/nRF24_COMMANDS.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_CONFIG.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_DEFS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_CONFIG.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_DEFS.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/nRF24_FUNCS.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_CONFIG.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_DEFS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_FUNCS.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_FUNCS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_FUNCS.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_FUNCS.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/nRF24_HAL.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_CONFIG.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_DEFS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.c G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/filters.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/filters.c 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/filters.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_DMA_dma.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_armcc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_compiler.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_gcc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/core_cm3.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydisabledsheets.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/project.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CE_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYDMAC.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CYFITTER.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyDmac.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyFlash.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CyLib.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/CySpc.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/DVDAC_VDAC8.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.H G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Filter_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/IRQ_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/LED_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MISO_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/MOSI_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Opamp.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SCLK_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SPI_PVT.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/SS_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/UART_IntClock.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/Vout_aliases.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyPm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydevice_trm.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cypins.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cytypes.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_IRQ.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/isr_Rx.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_COMMANDS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_CONFIG.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_DEFS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_FUNCS.h G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/nRF24_HAL.h G:/RxSinRuio/00_Basic_Rx.cydsn/main.c G:/RxSinRuio/00_Basic_Rx.cydsn/main.h 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/Generated_Source/PSoC5/project.h : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/main.c : 
+
+G:/RxSinRuio/00_Basic_Rx.cydsn/main.h : 
+

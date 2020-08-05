@@ -1,0 +1,7 @@
+G:\RxSinRuio\00_Basic_Rx.cydsn\00_Basic_Rx.cyprj|8dff0f14-a76c-48fc-8b4e-9b11795a5dec
+G:\RxSinRuio\00_Basic_Rx.cydsn\nRF24_Component-master\nRF24_Component-master\nRF24.cylib\nRF24.cyprj|68e491d4-c8db-4b2d-b34a-5a38ef61fa35
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b16ba245-224c-4968-97d2-13adf1b86da4
+C:\Users\USER\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|5df94c92-4373-4220-b74d-f25c1444de35
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d3aa7126-ad2f-4ad2-8cf9-f1d0640e5499
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|021a53f4-e4f3-420f-b673-690251fb2f2e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ad69c59c-8f23-4fa7-99b6-76688335f92e

@@ -1,0 +1,890 @@
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"DVDAC_PM.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.DVDAC_SaveConfig,"ax",%progbits
+  20              		.align	2
+  21              		.global	DVDAC_SaveConfig
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	DVDAC_SaveConfig, %function
+  25              	DVDAC_SaveConfig:
+  26              	.LFB2:
+  27              		.file 1 "Generated_Source\\PSoC5\\DVDAC_PM.c"
+   1:Generated_Source\PSoC5/DVDAC_PM.c **** /*******************************************************************************
+   2:Generated_Source\PSoC5/DVDAC_PM.c **** * File Name: DVDAC_PM.c
+   3:Generated_Source\PSoC5/DVDAC_PM.c **** * Version 2.10
+   4:Generated_Source\PSoC5/DVDAC_PM.c **** *
+   5:Generated_Source\PSoC5/DVDAC_PM.c **** * Description:
+   6:Generated_Source\PSoC5/DVDAC_PM.c **** *  This file provides the power management source code to the API for the
+   7:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC component.
+   8:Generated_Source\PSoC5/DVDAC_PM.c **** *
+   9:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  10:Generated_Source\PSoC5/DVDAC_PM.c **** ********************************************************************************
+  11:Generated_Source\PSoC5/DVDAC_PM.c **** * Copyright 2013, Cypress Semiconductor Corporation. All rights reserved.
+  12:Generated_Source\PSoC5/DVDAC_PM.c **** * You may use this file only in accordance with the license, terms, conditions,
+  13:Generated_Source\PSoC5/DVDAC_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  14:Generated_Source\PSoC5/DVDAC_PM.c **** * the software package with which this file was provided.
+  15:Generated_Source\PSoC5/DVDAC_PM.c **** *******************************************************************************/
+  16:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  17:Generated_Source\PSoC5/DVDAC_PM.c **** #include "DVDAC.h"
+  18:Generated_Source\PSoC5/DVDAC_PM.c **** #include "DVDAC_VDAC8.h"
+  19:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  20:Generated_Source\PSoC5/DVDAC_PM.c **** static DVDAC_BACKUP_STRUCT  DVDAC_backup;
+  21:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  22:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  23:Generated_Source\PSoC5/DVDAC_PM.c **** /*******************************************************************************
+  24:Generated_Source\PSoC5/DVDAC_PM.c **** * Function Name: DVDAC_Sleep
+  25:Generated_Source\PSoC5/DVDAC_PM.c **** ********************************************************************************
+  26:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  27:Generated_Source\PSoC5/DVDAC_PM.c **** * Summary:
+  28:Generated_Source\PSoC5/DVDAC_PM.c **** *  This is the preferred API to prepare the component for sleep. The
+  29:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC_Sleep() API saves the current component state. Then it
+  30:Generated_Source\PSoC5/DVDAC_PM.c **** *  calls the DVDAC_Stop() function and calls
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 2
+
+
+  31:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC_SaveConfig() to save the hardware configuration. Call the
+  32:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC_Sleep() function before calling the CyPmSleep() or the
+  33:Generated_Source\PSoC5/DVDAC_PM.c **** *  CyPmHibernate() function.
+  34:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  35:Generated_Source\PSoC5/DVDAC_PM.c **** * Parameters:
+  36:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  37:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  38:Generated_Source\PSoC5/DVDAC_PM.c **** * Return:
+  39:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  40:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  41:Generated_Source\PSoC5/DVDAC_PM.c **** * Global variables:
+  42:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  43:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  44:Generated_Source\PSoC5/DVDAC_PM.c **** *******************************************************************************/
+  45:Generated_Source\PSoC5/DVDAC_PM.c **** void DVDAC_Sleep(void) 
+  46:Generated_Source\PSoC5/DVDAC_PM.c **** {
+  47:Generated_Source\PSoC5/DVDAC_PM.c ****     /* Save VDAC8's enable state */
+  48:Generated_Source\PSoC5/DVDAC_PM.c ****     if(0u != (DVDAC_VDAC8_PWRMGR & DVDAC_VDAC8_ACT_PWR_EN))
+  49:Generated_Source\PSoC5/DVDAC_PM.c ****     {
+  50:Generated_Source\PSoC5/DVDAC_PM.c ****         DVDAC_backup.enableState = 1u;
+  51:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+  52:Generated_Source\PSoC5/DVDAC_PM.c ****     else
+  53:Generated_Source\PSoC5/DVDAC_PM.c ****     {
+  54:Generated_Source\PSoC5/DVDAC_PM.c ****         DVDAC_backup.enableState = 0u;
+  55:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+  56:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  57:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_Stop();
+  58:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_SaveConfig();
+  59:Generated_Source\PSoC5/DVDAC_PM.c **** }
+  60:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  61:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  62:Generated_Source\PSoC5/DVDAC_PM.c **** /*******************************************************************************
+  63:Generated_Source\PSoC5/DVDAC_PM.c **** * Function Name: DVDAC_Wakeup
+  64:Generated_Source\PSoC5/DVDAC_PM.c **** ********************************************************************************
+  65:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  66:Generated_Source\PSoC5/DVDAC_PM.c **** * Summary:
+  67:Generated_Source\PSoC5/DVDAC_PM.c **** *  This is the preferred API to restore the component to the state when
+  68:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC_Sleep() was called. The DVDAC_Wakeup() function
+  69:Generated_Source\PSoC5/DVDAC_PM.c **** *  calls the DVDAC_RestoreConfig() function to restore the
+  70:Generated_Source\PSoC5/DVDAC_PM.c **** *  configuration. If the component was enabled before the
+  71:Generated_Source\PSoC5/DVDAC_PM.c **** *  DVDAC_Sleep() function was called, the DVDAC_Wakeup() function
+  72:Generated_Source\PSoC5/DVDAC_PM.c **** *  will also re-enable the component.
+  73:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  74:Generated_Source\PSoC5/DVDAC_PM.c **** * Parameters:
+  75:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  76:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  77:Generated_Source\PSoC5/DVDAC_PM.c **** * Return:
+  78:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  79:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  80:Generated_Source\PSoC5/DVDAC_PM.c **** * Global variables:
+  81:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+  82:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  83:Generated_Source\PSoC5/DVDAC_PM.c **** *******************************************************************************/
+  84:Generated_Source\PSoC5/DVDAC_PM.c **** void DVDAC_Wakeup(void) 
+  85:Generated_Source\PSoC5/DVDAC_PM.c **** {
+  86:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_RestoreConfig();
+  87:Generated_Source\PSoC5/DVDAC_PM.c **** 
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 3
+
+
+  88:Generated_Source\PSoC5/DVDAC_PM.c ****     if(DVDAC_backup.enableState == 1u)
+  89:Generated_Source\PSoC5/DVDAC_PM.c ****     {
+  90:Generated_Source\PSoC5/DVDAC_PM.c ****         DVDAC_Enable();
+  91:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+  92:Generated_Source\PSoC5/DVDAC_PM.c **** }
+  93:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  94:Generated_Source\PSoC5/DVDAC_PM.c **** 
+  95:Generated_Source\PSoC5/DVDAC_PM.c **** /*******************************************************************************
+  96:Generated_Source\PSoC5/DVDAC_PM.c **** * Function Name: DVDAC_SaveConfig
+  97:Generated_Source\PSoC5/DVDAC_PM.c **** ********************************************************************************
+  98:Generated_Source\PSoC5/DVDAC_PM.c **** *
+  99:Generated_Source\PSoC5/DVDAC_PM.c **** * Summary:
+ 100:Generated_Source\PSoC5/DVDAC_PM.c **** *  This function saves the component configuration and non-retention registers.
+ 101:Generated_Source\PSoC5/DVDAC_PM.c **** *  This function is called by the DVDAC_Sleep() function.
+ 102:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 103:Generated_Source\PSoC5/DVDAC_PM.c **** * Parameters:
+ 104:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 105:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 106:Generated_Source\PSoC5/DVDAC_PM.c **** * Return:
+ 107:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 108:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 109:Generated_Source\PSoC5/DVDAC_PM.c **** * Global variables:
+ 110:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 111:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 112:Generated_Source\PSoC5/DVDAC_PM.c **** *******************************************************************************/
+ 113:Generated_Source\PSoC5/DVDAC_PM.c **** void DVDAC_SaveConfig(void) 
+ 114:Generated_Source\PSoC5/DVDAC_PM.c **** {
+  28              		.loc 1 114 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 08B5     		push	{r3, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 3, -8
+  35              		.cfi_offset 14, -4
+ 115:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_VDAC8_SaveConfig();
+  36              		.loc 1 115 0
+  37 0002 FFF7FEFF 		bl	DVDAC_VDAC8_SaveConfig
+  38              	.LVL0:
+  39 0006 08BD     		pop	{r3, pc}
+  40              		.cfi_endproc
+  41              	.LFE2:
+  42              		.size	DVDAC_SaveConfig, .-DVDAC_SaveConfig
+  43              		.section	.text.DVDAC_Sleep,"ax",%progbits
+  44              		.align	2
+  45              		.global	DVDAC_Sleep
+  46              		.thumb
+  47              		.thumb_func
+  48              		.type	DVDAC_Sleep, %function
+  49              	DVDAC_Sleep:
+  50              	.LFB0:
+  46:Generated_Source\PSoC5/DVDAC_PM.c ****     /* Save VDAC8's enable state */
+  51              		.loc 1 46 0
+  52              		.cfi_startproc
+  53              		@ args = 0, pretend = 0, frame = 0
+  54              		@ frame_needed = 0, uses_anonymous_args = 0
+  55 0000 08B5     		push	{r3, lr}
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 4
+
+
+  56              		.cfi_def_cfa_offset 8
+  57              		.cfi_offset 3, -8
+  58              		.cfi_offset 14, -4
+  48:Generated_Source\PSoC5/DVDAC_PM.c ****     {
+  59              		.loc 1 48 0
+  60 0002 084B     		ldr	r3, .L7
+  61 0004 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+  62 0006 13F0080F 		tst	r3, #8
+  63 000a 03D0     		beq	.L4
+  50:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+  64              		.loc 1 50 0
+  65 000c 0122     		movs	r2, #1
+  66 000e 064B     		ldr	r3, .L7+4
+  67 0010 1A70     		strb	r2, [r3]
+  68 0012 02E0     		b	.L5
+  69              	.L4:
+  54:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+  70              		.loc 1 54 0
+  71 0014 0022     		movs	r2, #0
+  72 0016 044B     		ldr	r3, .L7+4
+  73 0018 1A70     		strb	r2, [r3]
+  74              	.L5:
+  57:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_SaveConfig();
+  75              		.loc 1 57 0
+  76 001a FFF7FEFF 		bl	DVDAC_Stop
+  77              	.LVL1:
+  58:Generated_Source\PSoC5/DVDAC_PM.c **** }
+  78              		.loc 1 58 0
+  79 001e FFF7FEFF 		bl	DVDAC_SaveConfig
+  80              	.LVL2:
+  81 0022 08BD     		pop	{r3, pc}
+  82              	.L8:
+  83              		.align	2
+  84              	.L7:
+  85 0024 A8430040 		.word	1073759144
+  86 0028 00000000 		.word	.LANCHOR0
+  87              		.cfi_endproc
+  88              	.LFE0:
+  89              		.size	DVDAC_Sleep, .-DVDAC_Sleep
+  90              		.section	.text.DVDAC_RestoreConfig,"ax",%progbits
+  91              		.align	2
+  92              		.global	DVDAC_RestoreConfig
+  93              		.thumb
+  94              		.thumb_func
+  95              		.type	DVDAC_RestoreConfig, %function
+  96              	DVDAC_RestoreConfig:
+  97              	.LFB3:
+ 116:Generated_Source\PSoC5/DVDAC_PM.c **** }
+ 117:Generated_Source\PSoC5/DVDAC_PM.c **** 
+ 118:Generated_Source\PSoC5/DVDAC_PM.c **** 
+ 119:Generated_Source\PSoC5/DVDAC_PM.c **** /*******************************************************************************
+ 120:Generated_Source\PSoC5/DVDAC_PM.c **** * Function Name: DVDAC_RestoreConfig
+ 121:Generated_Source\PSoC5/DVDAC_PM.c **** ********************************************************************************
+ 122:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 123:Generated_Source\PSoC5/DVDAC_PM.c **** * Summary:
+ 124:Generated_Source\PSoC5/DVDAC_PM.c **** *  This function restores the component configuration and non-retention
+ 125:Generated_Source\PSoC5/DVDAC_PM.c **** *  registers. This function is called by the DVDAC_Wakeup() function.
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 5
+
+
+ 126:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 127:Generated_Source\PSoC5/DVDAC_PM.c **** * Parameters:
+ 128:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 129:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 130:Generated_Source\PSoC5/DVDAC_PM.c **** * Return:
+ 131:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 132:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 133:Generated_Source\PSoC5/DVDAC_PM.c **** * Global variables:
+ 134:Generated_Source\PSoC5/DVDAC_PM.c **** *  None
+ 135:Generated_Source\PSoC5/DVDAC_PM.c **** *
+ 136:Generated_Source\PSoC5/DVDAC_PM.c **** *******************************************************************************/
+ 137:Generated_Source\PSoC5/DVDAC_PM.c **** void DVDAC_RestoreConfig(void) 
+ 138:Generated_Source\PSoC5/DVDAC_PM.c **** {
+  98              		.loc 1 138 0
+  99              		.cfi_startproc
+ 100              		@ args = 0, pretend = 0, frame = 0
+ 101              		@ frame_needed = 0, uses_anonymous_args = 0
+ 102 0000 08B5     		push	{r3, lr}
+ 103              		.cfi_def_cfa_offset 8
+ 104              		.cfi_offset 3, -8
+ 105              		.cfi_offset 14, -4
+ 139:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_VDAC8_RestoreConfig();
+ 106              		.loc 1 139 0
+ 107 0002 FFF7FEFF 		bl	DVDAC_VDAC8_RestoreConfig
+ 108              	.LVL3:
+ 109 0006 08BD     		pop	{r3, pc}
+ 110              		.cfi_endproc
+ 111              	.LFE3:
+ 112              		.size	DVDAC_RestoreConfig, .-DVDAC_RestoreConfig
+ 113              		.section	.text.DVDAC_Wakeup,"ax",%progbits
+ 114              		.align	2
+ 115              		.global	DVDAC_Wakeup
+ 116              		.thumb
+ 117              		.thumb_func
+ 118              		.type	DVDAC_Wakeup, %function
+ 119              	DVDAC_Wakeup:
+ 120              	.LFB1:
+  85:Generated_Source\PSoC5/DVDAC_PM.c ****     DVDAC_RestoreConfig();
+ 121              		.loc 1 85 0
+ 122              		.cfi_startproc
+ 123              		@ args = 0, pretend = 0, frame = 0
+ 124              		@ frame_needed = 0, uses_anonymous_args = 0
+ 125 0000 08B5     		push	{r3, lr}
+ 126              		.cfi_def_cfa_offset 8
+ 127              		.cfi_offset 3, -8
+ 128              		.cfi_offset 14, -4
+  86:Generated_Source\PSoC5/DVDAC_PM.c **** 
+ 129              		.loc 1 86 0
+ 130 0002 FFF7FEFF 		bl	DVDAC_RestoreConfig
+ 131              	.LVL4:
+  88:Generated_Source\PSoC5/DVDAC_PM.c ****     {
+ 132              		.loc 1 88 0
+ 133 0006 034B     		ldr	r3, .L14
+ 134 0008 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 135 000a 012B     		cmp	r3, #1
+ 136 000c 01D1     		bne	.L11
+  90:Generated_Source\PSoC5/DVDAC_PM.c ****     }
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 6
+
+
+ 137              		.loc 1 90 0
+ 138 000e FFF7FEFF 		bl	DVDAC_Enable
+ 139              	.LVL5:
+ 140              	.L11:
+ 141 0012 08BD     		pop	{r3, pc}
+ 142              	.L15:
+ 143              		.align	2
+ 144              	.L14:
+ 145 0014 00000000 		.word	.LANCHOR0
+ 146              		.cfi_endproc
+ 147              	.LFE1:
+ 148              		.size	DVDAC_Wakeup, .-DVDAC_Wakeup
+ 149              		.bss
+ 150              		.align	2
+ 151              		.set	.LANCHOR0,. + 0
+ 152              		.type	DVDAC_backup, %object
+ 153              		.size	DVDAC_backup, 1
+ 154              	DVDAC_backup:
+ 155 0000 00       		.space	1
+ 156              		.text
+ 157              	.Letext0:
+ 158              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
+ 159              		.file 3 "Generated_Source\\PSoC5\\DVDAC.h"
+ 160              		.file 4 "Generated_Source\\PSoC5\\DVDAC_VDAC8.h"
+ 161              		.section	.debug_info,"",%progbits
+ 162              	.Ldebug_info0:
+ 163 0000 85010000 		.4byte	0x185
+ 164 0004 0400     		.2byte	0x4
+ 165 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 166 000a 04       		.byte	0x4
+ 167 000b 01       		.uleb128 0x1
+ 168 000c 3D000000 		.4byte	.LASF23
+ 169 0010 0C       		.byte	0xc
+ 170 0011 E8010000 		.4byte	.LASF24
+ 171 0015 F5000000 		.4byte	.LASF25
+ 172 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 173 001d 00000000 		.4byte	0
+ 174 0021 00000000 		.4byte	.Ldebug_line0
+ 175 0025 02       		.uleb128 0x2
+ 176 0026 01       		.byte	0x1
+ 177 0027 06       		.byte	0x6
+ 178 0028 DC010000 		.4byte	.LASF0
+ 179 002c 02       		.uleb128 0x2
+ 180 002d 01       		.byte	0x1
+ 181 002e 08       		.byte	0x8
+ 182 002f 2F000000 		.4byte	.LASF1
+ 183 0033 02       		.uleb128 0x2
+ 184 0034 02       		.byte	0x2
+ 185 0035 05       		.byte	0x5
+ 186 0036 96010000 		.4byte	.LASF2
+ 187 003a 02       		.uleb128 0x2
+ 188 003b 02       		.byte	0x2
+ 189 003c 07       		.byte	0x7
+ 190 003d E2000000 		.4byte	.LASF3
+ 191 0041 02       		.uleb128 0x2
+ 192 0042 04       		.byte	0x4
+ 193 0043 05       		.byte	0x5
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 7
+
+
+ 194 0044 B3010000 		.4byte	.LASF4
+ 195 0048 02       		.uleb128 0x2
+ 196 0049 04       		.byte	0x4
+ 197 004a 07       		.byte	0x7
+ 198 004b D0000000 		.4byte	.LASF5
+ 199 004f 02       		.uleb128 0x2
+ 200 0050 08       		.byte	0x8
+ 201 0051 05       		.byte	0x5
+ 202 0052 83010000 		.4byte	.LASF6
+ 203 0056 02       		.uleb128 0x2
+ 204 0057 08       		.byte	0x8
+ 205 0058 07       		.byte	0x7
+ 206 0059 53010000 		.4byte	.LASF7
+ 207 005d 03       		.uleb128 0x3
+ 208 005e 04       		.byte	0x4
+ 209 005f 05       		.byte	0x5
+ 210 0060 696E7400 		.ascii	"int\000"
+ 211 0064 02       		.uleb128 0x2
+ 212 0065 04       		.byte	0x4
+ 213 0066 07       		.byte	0x7
+ 214 0067 46010000 		.4byte	.LASF8
+ 215 006b 04       		.uleb128 0x4
+ 216 006c A0010000 		.4byte	.LASF12
+ 217 0070 02       		.byte	0x2
+ 218 0071 E401     		.2byte	0x1e4
+ 219 0073 2C000000 		.4byte	0x2c
+ 220 0077 02       		.uleb128 0x2
+ 221 0078 04       		.byte	0x4
+ 222 0079 04       		.byte	0x4
+ 223 007a 1C000000 		.4byte	.LASF9
+ 224 007e 02       		.uleb128 0x2
+ 225 007f 08       		.byte	0x8
+ 226 0080 04       		.byte	0x4
+ 227 0081 14010000 		.4byte	.LASF10
+ 228 0085 02       		.uleb128 0x2
+ 229 0086 01       		.byte	0x1
+ 230 0087 08       		.byte	0x8
+ 231 0088 91010000 		.4byte	.LASF11
+ 232 008c 04       		.uleb128 0x4
+ 233 008d CB000000 		.4byte	.LASF13
+ 234 0091 02       		.byte	0x2
+ 235 0092 8E02     		.2byte	0x28e
+ 236 0094 98000000 		.4byte	0x98
+ 237 0098 05       		.uleb128 0x5
+ 238 0099 6B000000 		.4byte	0x6b
+ 239 009d 06       		.uleb128 0x6
+ 240 009e 01       		.byte	0x1
+ 241 009f 03       		.byte	0x3
+ 242 00a0 1C       		.byte	0x1c
+ 243 00a1 B2000000 		.4byte	0xb2
+ 244 00a5 07       		.uleb128 0x7
+ 245 00a6 BC010000 		.4byte	.LASF26
+ 246 00aa 03       		.byte	0x3
+ 247 00ab 1E       		.byte	0x1e
+ 248 00ac 6B000000 		.4byte	0x6b
+ 249 00b0 00       		.byte	0
+ 250 00b1 00       		.byte	0
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 8
+
+
+ 251 00b2 08       		.uleb128 0x8
+ 252 00b3 C8010000 		.4byte	.LASF14
+ 253 00b7 03       		.byte	0x3
+ 254 00b8 1F       		.byte	0x1f
+ 255 00b9 9D000000 		.4byte	0x9d
+ 256 00bd 09       		.uleb128 0x9
+ 257 00be 0B000000 		.4byte	.LASF15
+ 258 00c2 01       		.byte	0x1
+ 259 00c3 71       		.byte	0x71
+ 260 00c4 00000000 		.4byte	.LFB2
+ 261 00c8 08000000 		.4byte	.LFE2-.LFB2
+ 262 00cc 01       		.uleb128 0x1
+ 263 00cd 9C       		.byte	0x9c
+ 264 00ce DC000000 		.4byte	0xdc
+ 265 00d2 0A       		.uleb128 0xa
+ 266 00d3 06000000 		.4byte	.LVL0
+ 267 00d7 5C010000 		.4byte	0x15c
+ 268 00db 00       		.byte	0
+ 269 00dc 09       		.uleb128 0x9
+ 270 00dd 77010000 		.4byte	.LASF16
+ 271 00e1 01       		.byte	0x1
+ 272 00e2 2D       		.byte	0x2d
+ 273 00e3 00000000 		.4byte	.LFB0
+ 274 00e7 2C000000 		.4byte	.LFE0-.LFB0
+ 275 00eb 01       		.uleb128 0x1
+ 276 00ec 9C       		.byte	0x9c
+ 277 00ed 04010000 		.4byte	0x104
+ 278 00f1 0A       		.uleb128 0xa
+ 279 00f2 1E000000 		.4byte	.LVL1
+ 280 00f6 67010000 		.4byte	0x167
+ 281 00fa 0A       		.uleb128 0xa
+ 282 00fb 22000000 		.4byte	.LVL2
+ 283 00ff BD000000 		.4byte	0xbd
+ 284 0103 00       		.byte	0
+ 285 0104 09       		.uleb128 0x9
+ 286 0105 1B010000 		.4byte	.LASF17
+ 287 0109 01       		.byte	0x1
+ 288 010a 89       		.byte	0x89
+ 289 010b 00000000 		.4byte	.LFB3
+ 290 010f 08000000 		.4byte	.LFE3-.LFB3
+ 291 0113 01       		.uleb128 0x1
+ 292 0114 9C       		.byte	0x9c
+ 293 0115 23010000 		.4byte	0x123
+ 294 0119 0A       		.uleb128 0xa
+ 295 011a 06000000 		.4byte	.LVL3
+ 296 011e 72010000 		.4byte	0x172
+ 297 0122 00       		.byte	0
+ 298 0123 09       		.uleb128 0x9
+ 299 0124 A6010000 		.4byte	.LASF18
+ 300 0128 01       		.byte	0x1
+ 301 0129 54       		.byte	0x54
+ 302 012a 00000000 		.4byte	.LFB1
+ 303 012e 18000000 		.4byte	.LFE1-.LFB1
+ 304 0132 01       		.uleb128 0x1
+ 305 0133 9C       		.byte	0x9c
+ 306 0134 4B010000 		.4byte	0x14b
+ 307 0138 0A       		.uleb128 0xa
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 9
+
+
+ 308 0139 06000000 		.4byte	.LVL4
+ 309 013d 04010000 		.4byte	0x104
+ 310 0141 0A       		.uleb128 0xa
+ 311 0142 12000000 		.4byte	.LVL5
+ 312 0146 7D010000 		.4byte	0x17d
+ 313 014a 00       		.byte	0
+ 314 014b 0B       		.uleb128 0xb
+ 315 014c 6A010000 		.4byte	.LASF27
+ 316 0150 01       		.byte	0x1
+ 317 0151 14       		.byte	0x14
+ 318 0152 B2000000 		.4byte	0xb2
+ 319 0156 05       		.uleb128 0x5
+ 320 0157 03       		.byte	0x3
+ 321 0158 00000000 		.4byte	DVDAC_backup
+ 322 015c 0C       		.uleb128 0xc
+ 323 015d 2F010000 		.4byte	.LASF19
+ 324 0161 2F010000 		.4byte	.LASF19
+ 325 0165 04       		.byte	0x4
+ 326 0166 3B       		.byte	0x3b
+ 327 0167 0C       		.uleb128 0xc
+ 328 0168 00000000 		.4byte	.LASF20
+ 329 016c 00000000 		.4byte	.LASF20
+ 330 0170 03       		.byte	0x3
+ 331 0171 49       		.byte	0x49
+ 332 0172 0C       		.uleb128 0xc
+ 333 0173 0A020000 		.4byte	.LASF21
+ 334 0177 0A020000 		.4byte	.LASF21
+ 335 017b 04       		.byte	0x4
+ 336 017c 3C       		.byte	0x3c
+ 337 017d 0C       		.uleb128 0xc
+ 338 017e 22000000 		.4byte	.LASF22
+ 339 0182 22000000 		.4byte	.LASF22
+ 340 0186 03       		.byte	0x3
+ 341 0187 47       		.byte	0x47
+ 342 0188 00       		.byte	0
+ 343              		.section	.debug_abbrev,"",%progbits
+ 344              	.Ldebug_abbrev0:
+ 345 0000 01       		.uleb128 0x1
+ 346 0001 11       		.uleb128 0x11
+ 347 0002 01       		.byte	0x1
+ 348 0003 25       		.uleb128 0x25
+ 349 0004 0E       		.uleb128 0xe
+ 350 0005 13       		.uleb128 0x13
+ 351 0006 0B       		.uleb128 0xb
+ 352 0007 03       		.uleb128 0x3
+ 353 0008 0E       		.uleb128 0xe
+ 354 0009 1B       		.uleb128 0x1b
+ 355 000a 0E       		.uleb128 0xe
+ 356 000b 55       		.uleb128 0x55
+ 357 000c 17       		.uleb128 0x17
+ 358 000d 11       		.uleb128 0x11
+ 359 000e 01       		.uleb128 0x1
+ 360 000f 10       		.uleb128 0x10
+ 361 0010 17       		.uleb128 0x17
+ 362 0011 00       		.byte	0
+ 363 0012 00       		.byte	0
+ 364 0013 02       		.uleb128 0x2
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 10
+
+
+ 365 0014 24       		.uleb128 0x24
+ 366 0015 00       		.byte	0
+ 367 0016 0B       		.uleb128 0xb
+ 368 0017 0B       		.uleb128 0xb
+ 369 0018 3E       		.uleb128 0x3e
+ 370 0019 0B       		.uleb128 0xb
+ 371 001a 03       		.uleb128 0x3
+ 372 001b 0E       		.uleb128 0xe
+ 373 001c 00       		.byte	0
+ 374 001d 00       		.byte	0
+ 375 001e 03       		.uleb128 0x3
+ 376 001f 24       		.uleb128 0x24
+ 377 0020 00       		.byte	0
+ 378 0021 0B       		.uleb128 0xb
+ 379 0022 0B       		.uleb128 0xb
+ 380 0023 3E       		.uleb128 0x3e
+ 381 0024 0B       		.uleb128 0xb
+ 382 0025 03       		.uleb128 0x3
+ 383 0026 08       		.uleb128 0x8
+ 384 0027 00       		.byte	0
+ 385 0028 00       		.byte	0
+ 386 0029 04       		.uleb128 0x4
+ 387 002a 16       		.uleb128 0x16
+ 388 002b 00       		.byte	0
+ 389 002c 03       		.uleb128 0x3
+ 390 002d 0E       		.uleb128 0xe
+ 391 002e 3A       		.uleb128 0x3a
+ 392 002f 0B       		.uleb128 0xb
+ 393 0030 3B       		.uleb128 0x3b
+ 394 0031 05       		.uleb128 0x5
+ 395 0032 49       		.uleb128 0x49
+ 396 0033 13       		.uleb128 0x13
+ 397 0034 00       		.byte	0
+ 398 0035 00       		.byte	0
+ 399 0036 05       		.uleb128 0x5
+ 400 0037 35       		.uleb128 0x35
+ 401 0038 00       		.byte	0
+ 402 0039 49       		.uleb128 0x49
+ 403 003a 13       		.uleb128 0x13
+ 404 003b 00       		.byte	0
+ 405 003c 00       		.byte	0
+ 406 003d 06       		.uleb128 0x6
+ 407 003e 13       		.uleb128 0x13
+ 408 003f 01       		.byte	0x1
+ 409 0040 0B       		.uleb128 0xb
+ 410 0041 0B       		.uleb128 0xb
+ 411 0042 3A       		.uleb128 0x3a
+ 412 0043 0B       		.uleb128 0xb
+ 413 0044 3B       		.uleb128 0x3b
+ 414 0045 0B       		.uleb128 0xb
+ 415 0046 01       		.uleb128 0x1
+ 416 0047 13       		.uleb128 0x13
+ 417 0048 00       		.byte	0
+ 418 0049 00       		.byte	0
+ 419 004a 07       		.uleb128 0x7
+ 420 004b 0D       		.uleb128 0xd
+ 421 004c 00       		.byte	0
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 11
+
+
+ 422 004d 03       		.uleb128 0x3
+ 423 004e 0E       		.uleb128 0xe
+ 424 004f 3A       		.uleb128 0x3a
+ 425 0050 0B       		.uleb128 0xb
+ 426 0051 3B       		.uleb128 0x3b
+ 427 0052 0B       		.uleb128 0xb
+ 428 0053 49       		.uleb128 0x49
+ 429 0054 13       		.uleb128 0x13
+ 430 0055 38       		.uleb128 0x38
+ 431 0056 0B       		.uleb128 0xb
+ 432 0057 00       		.byte	0
+ 433 0058 00       		.byte	0
+ 434 0059 08       		.uleb128 0x8
+ 435 005a 16       		.uleb128 0x16
+ 436 005b 00       		.byte	0
+ 437 005c 03       		.uleb128 0x3
+ 438 005d 0E       		.uleb128 0xe
+ 439 005e 3A       		.uleb128 0x3a
+ 440 005f 0B       		.uleb128 0xb
+ 441 0060 3B       		.uleb128 0x3b
+ 442 0061 0B       		.uleb128 0xb
+ 443 0062 49       		.uleb128 0x49
+ 444 0063 13       		.uleb128 0x13
+ 445 0064 00       		.byte	0
+ 446 0065 00       		.byte	0
+ 447 0066 09       		.uleb128 0x9
+ 448 0067 2E       		.uleb128 0x2e
+ 449 0068 01       		.byte	0x1
+ 450 0069 3F       		.uleb128 0x3f
+ 451 006a 19       		.uleb128 0x19
+ 452 006b 03       		.uleb128 0x3
+ 453 006c 0E       		.uleb128 0xe
+ 454 006d 3A       		.uleb128 0x3a
+ 455 006e 0B       		.uleb128 0xb
+ 456 006f 3B       		.uleb128 0x3b
+ 457 0070 0B       		.uleb128 0xb
+ 458 0071 27       		.uleb128 0x27
+ 459 0072 19       		.uleb128 0x19
+ 460 0073 11       		.uleb128 0x11
+ 461 0074 01       		.uleb128 0x1
+ 462 0075 12       		.uleb128 0x12
+ 463 0076 06       		.uleb128 0x6
+ 464 0077 40       		.uleb128 0x40
+ 465 0078 18       		.uleb128 0x18
+ 466 0079 9742     		.uleb128 0x2117
+ 467 007b 19       		.uleb128 0x19
+ 468 007c 01       		.uleb128 0x1
+ 469 007d 13       		.uleb128 0x13
+ 470 007e 00       		.byte	0
+ 471 007f 00       		.byte	0
+ 472 0080 0A       		.uleb128 0xa
+ 473 0081 898201   		.uleb128 0x4109
+ 474 0084 00       		.byte	0
+ 475 0085 11       		.uleb128 0x11
+ 476 0086 01       		.uleb128 0x1
+ 477 0087 31       		.uleb128 0x31
+ 478 0088 13       		.uleb128 0x13
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 12
+
+
+ 479 0089 00       		.byte	0
+ 480 008a 00       		.byte	0
+ 481 008b 0B       		.uleb128 0xb
+ 482 008c 34       		.uleb128 0x34
+ 483 008d 00       		.byte	0
+ 484 008e 03       		.uleb128 0x3
+ 485 008f 0E       		.uleb128 0xe
+ 486 0090 3A       		.uleb128 0x3a
+ 487 0091 0B       		.uleb128 0xb
+ 488 0092 3B       		.uleb128 0x3b
+ 489 0093 0B       		.uleb128 0xb
+ 490 0094 49       		.uleb128 0x49
+ 491 0095 13       		.uleb128 0x13
+ 492 0096 02       		.uleb128 0x2
+ 493 0097 18       		.uleb128 0x18
+ 494 0098 00       		.byte	0
+ 495 0099 00       		.byte	0
+ 496 009a 0C       		.uleb128 0xc
+ 497 009b 2E       		.uleb128 0x2e
+ 498 009c 00       		.byte	0
+ 499 009d 3F       		.uleb128 0x3f
+ 500 009e 19       		.uleb128 0x19
+ 501 009f 3C       		.uleb128 0x3c
+ 502 00a0 19       		.uleb128 0x19
+ 503 00a1 6E       		.uleb128 0x6e
+ 504 00a2 0E       		.uleb128 0xe
+ 505 00a3 03       		.uleb128 0x3
+ 506 00a4 0E       		.uleb128 0xe
+ 507 00a5 3A       		.uleb128 0x3a
+ 508 00a6 0B       		.uleb128 0xb
+ 509 00a7 3B       		.uleb128 0x3b
+ 510 00a8 0B       		.uleb128 0xb
+ 511 00a9 00       		.byte	0
+ 512 00aa 00       		.byte	0
+ 513 00ab 00       		.byte	0
+ 514              		.section	.debug_aranges,"",%progbits
+ 515 0000 34000000 		.4byte	0x34
+ 516 0004 0200     		.2byte	0x2
+ 517 0006 00000000 		.4byte	.Ldebug_info0
+ 518 000a 04       		.byte	0x4
+ 519 000b 00       		.byte	0
+ 520 000c 0000     		.2byte	0
+ 521 000e 0000     		.2byte	0
+ 522 0010 00000000 		.4byte	.LFB2
+ 523 0014 08000000 		.4byte	.LFE2-.LFB2
+ 524 0018 00000000 		.4byte	.LFB0
+ 525 001c 2C000000 		.4byte	.LFE0-.LFB0
+ 526 0020 00000000 		.4byte	.LFB3
+ 527 0024 08000000 		.4byte	.LFE3-.LFB3
+ 528 0028 00000000 		.4byte	.LFB1
+ 529 002c 18000000 		.4byte	.LFE1-.LFB1
+ 530 0030 00000000 		.4byte	0
+ 531 0034 00000000 		.4byte	0
+ 532              		.section	.debug_ranges,"",%progbits
+ 533              	.Ldebug_ranges0:
+ 534 0000 00000000 		.4byte	.LFB2
+ 535 0004 08000000 		.4byte	.LFE2
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 13
+
+
+ 536 0008 00000000 		.4byte	.LFB0
+ 537 000c 2C000000 		.4byte	.LFE0
+ 538 0010 00000000 		.4byte	.LFB3
+ 539 0014 08000000 		.4byte	.LFE3
+ 540 0018 00000000 		.4byte	.LFB1
+ 541 001c 18000000 		.4byte	.LFE1
+ 542 0020 00000000 		.4byte	0
+ 543 0024 00000000 		.4byte	0
+ 544              		.section	.debug_line,"",%progbits
+ 545              	.Ldebug_line0:
+ 546 0000 B0000000 		.section	.debug_str,"MS",%progbits,1
+ 546      02006100 
+ 546      00000201 
+ 546      FB0E0D00 
+ 546      01010101 
+ 547              	.LASF20:
+ 548 0000 44564441 		.ascii	"DVDAC_Stop\000"
+ 548      435F5374 
+ 548      6F7000
+ 549              	.LASF15:
+ 550 000b 44564441 		.ascii	"DVDAC_SaveConfig\000"
+ 550      435F5361 
+ 550      7665436F 
+ 550      6E666967 
+ 550      00
+ 551              	.LASF9:
+ 552 001c 666C6F61 		.ascii	"float\000"
+ 552      7400
+ 553              	.LASF22:
+ 554 0022 44564441 		.ascii	"DVDAC_Enable\000"
+ 554      435F456E 
+ 554      61626C65 
+ 554      00
+ 555              	.LASF1:
+ 556 002f 756E7369 		.ascii	"unsigned char\000"
+ 556      676E6564 
+ 556      20636861 
+ 556      7200
+ 557              	.LASF23:
+ 558 003d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 558      43313120 
+ 558      352E342E 
+ 558      31203230 
+ 558      31363036 
+ 559 0070 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 559      20726576 
+ 559      6973696F 
+ 559      6E203233 
+ 559      37373135 
+ 560 00a3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 560      66756E63 
+ 560      74696F6E 
+ 560      2D736563 
+ 560      74696F6E 
+ 561              	.LASF13:
+ 562 00cb 72656738 		.ascii	"reg8\000"
+ 562      00
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 14
+
+
+ 563              	.LASF5:
+ 564 00d0 6C6F6E67 		.ascii	"long unsigned int\000"
+ 564      20756E73 
+ 564      69676E65 
+ 564      6420696E 
+ 564      7400
+ 565              	.LASF3:
+ 566 00e2 73686F72 		.ascii	"short unsigned int\000"
+ 566      7420756E 
+ 566      7369676E 
+ 566      65642069 
+ 566      6E7400
+ 567              	.LASF25:
+ 568 00f5 473A5C52 		.ascii	"G:\\RxSinRuio\\00_Basic_Rx.cydsn\000"
+ 568      7853696E 
+ 568      5275696F 
+ 568      5C30305F 
+ 568      42617369 
+ 569              	.LASF10:
+ 570 0114 646F7562 		.ascii	"double\000"
+ 570      6C6500
+ 571              	.LASF17:
+ 572 011b 44564441 		.ascii	"DVDAC_RestoreConfig\000"
+ 572      435F5265 
+ 572      73746F72 
+ 572      65436F6E 
+ 572      66696700 
+ 573              	.LASF19:
+ 574 012f 44564441 		.ascii	"DVDAC_VDAC8_SaveConfig\000"
+ 574      435F5644 
+ 574      4143385F 
+ 574      53617665 
+ 574      436F6E66 
+ 575              	.LASF8:
+ 576 0146 756E7369 		.ascii	"unsigned int\000"
+ 576      676E6564 
+ 576      20696E74 
+ 576      00
+ 577              	.LASF7:
+ 578 0153 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 578      206C6F6E 
+ 578      6720756E 
+ 578      7369676E 
+ 578      65642069 
+ 579              	.LASF27:
+ 580 016a 44564441 		.ascii	"DVDAC_backup\000"
+ 580      435F6261 
+ 580      636B7570 
+ 580      00
+ 581              	.LASF16:
+ 582 0177 44564441 		.ascii	"DVDAC_Sleep\000"
+ 582      435F536C 
+ 582      65657000 
+ 583              	.LASF6:
+ 584 0183 6C6F6E67 		.ascii	"long long int\000"
+ 584      206C6F6E 
+ 584      6720696E 
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccKV6dPX.s 			page 15
+
+
+ 584      7400
+ 585              	.LASF11:
+ 586 0191 63686172 		.ascii	"char\000"
+ 586      00
+ 587              	.LASF2:
+ 588 0196 73686F72 		.ascii	"short int\000"
+ 588      7420696E 
+ 588      7400
+ 589              	.LASF12:
+ 590 01a0 75696E74 		.ascii	"uint8\000"
+ 590      3800
+ 591              	.LASF18:
+ 592 01a6 44564441 		.ascii	"DVDAC_Wakeup\000"
+ 592      435F5761 
+ 592      6B657570 
+ 592      00
+ 593              	.LASF4:
+ 594 01b3 6C6F6E67 		.ascii	"long int\000"
+ 594      20696E74 
+ 594      00
+ 595              	.LASF26:
+ 596 01bc 656E6162 		.ascii	"enableState\000"
+ 596      6C655374 
+ 596      61746500 
+ 597              	.LASF14:
+ 598 01c8 44564441 		.ascii	"DVDAC_BACKUP_STRUCT\000"
+ 598      435F4241 
+ 598      434B5550 
+ 598      5F535452 
+ 598      55435400 
+ 599              	.LASF0:
+ 600 01dc 7369676E 		.ascii	"signed char\000"
+ 600      65642063 
+ 600      68617200 
+ 601              	.LASF24:
+ 602 01e8 47656E65 		.ascii	"Generated_Source\\PSoC5\\DVDAC_PM.c\000"
+ 602      72617465 
+ 602      645F536F 
+ 602      75726365 
+ 602      5C50536F 
+ 603              	.LASF21:
+ 604 020a 44564441 		.ascii	"DVDAC_VDAC8_RestoreConfig\000"
+ 604      435F5644 
+ 604      4143385F 
+ 604      52657374 
+ 604      6F726543 
+ 605              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

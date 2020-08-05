@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\System">
+<ExpandedNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Pins</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Analog</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Clocks</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Interrupts</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\DMA</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\System</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Directives</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Flash Security</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\EEPROM</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files\cyapicallbacks.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files\main.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files\filters.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files\main.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cm0plusgcc.ld</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusIar.icf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusRealView.scat</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusStart.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cmsis_compiler.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\core_cm0plus.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\core_cm0plus_psoc4.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_lfclk</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\Em_EEPROM_Dynamic\cy_em_eeprom.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\Em_EEPROM_Dynamic\cy_em_eeprom.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\IRQ</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\IRQ\IRQ.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\IRQ\IRQ.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\IRQ\IRQ_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\IRQ\IRQ_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\isr_IRQ</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\isr_IRQ\isr_IRQ.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\isr_IRQ\isr_IRQ.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\LED</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\LED\LED.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\LED\LED.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\LED\LED_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\LED\LED_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_COMMANDS.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_COMMANDS.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_CONFIG.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_DEFS.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_FUNCS.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_FUNCS.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_HAL.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\nRF24\nRF24_HAL.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_BOOT.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_BOOT.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_PINS.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_PVT.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_SPI.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_SPI_BOOT.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_SPI_UART.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_SPI_UART.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI\SPI_SPI_UART_PVT.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_miso_m</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_miso_m\SPI_miso_m.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_miso_m\SPI_miso_m.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_miso_m\SPI_miso_m_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_miso_m\SPI_miso_m_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_mosi_m</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_mosi_m\SPI_mosi_m.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_mosi_m\SPI_mosi_m.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_mosi_m\SPI_mosi_m_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_mosi_m\SPI_mosi_m_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_SCBCLK</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_SCBCLK\SPI_SCBCLK.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_SCBCLK\SPI_SCBCLK.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_sclk_m</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_sclk_m\SPI_sclk_m.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_sclk_m\SPI_sclk_m.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_sclk_m\SPI_sclk_m_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SPI_sclk_m\SPI_sclk_m_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SS</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SS\SS.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SS\SS.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SS\SS_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\SS\SS_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART_AsmGnu.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART_AsmIar.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART_AsmRv.s</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfitter.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cymetadata.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\project.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Pins</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Analog</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Clocks</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Interrupts</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\DMA</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\System</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Directives</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\Flash Security</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.cydwr\EEPROM</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files\cyapicallbacks.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Header Files\main.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files\filters.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Source Files\main.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE_aliases.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\CE\CE_PM.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cm0plusgcc.ld</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusIar.icf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusRealView.scat</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\Cm0plusStart.c</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Generated_Source\PSoC4\cy_boot\cmsis_compiler.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CE.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_DMA_dma.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_IntClock.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_Coefficients.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_PVT.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_RAM_Data.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\filters.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\IRQ.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_IRQ.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_Rx.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\MISO.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\MOSI.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\nRF24_COMMANDS.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\nRF24_FUNCS.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\nRF24_HAL.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SCLK.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SPI.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SPI_INT.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SPI_IntClock.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SPI_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\SS.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\00_Basic_Rx.elf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\00_Basic_Rx.hex</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\00_Basic_Rx.map</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.gpdsc</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx.rpt</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\00_Basic_Rx_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CE.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_DMA_dma.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_IntClock.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\DVDAC_VDAC8_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_Coefficients.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_PM.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_PVT.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\Filter_RAM_Data.lst</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CortexM3\ARM_GCC_541\Debug\Listing Files\filters.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\PSoC 5LP Architecture TRM</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CY8C58LP Family Datasheet</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\System Reference Guides</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\System Reference Guides\cy_boot_v5_70</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_constant_v1_0</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_isr_v1_70</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_pins_v2_20</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\DVDAC_v2_10.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Filter_v2_30.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\OpAmp_v1_90.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\SPI_Master_v2_50.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>00_Basic_Rx-000</v>
+<v>00_Basic_Rx-000\00_Basic_Rx</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\PSoC 5LP Architecture TRM</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\CY8C58LP Family Datasheet</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\System Reference Guides</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\System Reference Guides\cy_boot_v5_70</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_constant_v1_0</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_isr_v1_70</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_pins_v2_20</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\DVDAC_v2_10.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\Filter_v2_30.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\OpAmp_v1_90.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\SPI_Master_v2_50.pdf</v>
+<v>00_Basic_Rx-000\00_Basic_Rx\UART_v2_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\main.c" />
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\00_Basic_Rx.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1048, 404" SelectedTabbedMdiWindow="9c65804a-75e3-438a-ba84-24c38fe084b2"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="4af37522-39fb-4443-b235-f24ce38a25c8" /><DocumentWindow Key="F:\RxSinRuio\00_Basic_Rx.cydsn\main.c" Guid="6de11326-e0ad-49f0-bfa6-4d7db340ac18" /><DocumentWindow Key="F:\RxSinRuio\00_Basic_Rx.cydsn\TopDesign\TopDesign.cysch" Guid="d7d48434-5108-4de3-9ec5-29c389142d7e" /><DocumentWindow Key="F:\RxSinRuio\00_Basic_Rx.cydsn\00_Basic_Rx.cydwr" Guid="9c65804a-75e3-438a-ba84-24c38fe084b2" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

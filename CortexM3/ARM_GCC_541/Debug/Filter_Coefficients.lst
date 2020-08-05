@@ -1,0 +1,713 @@
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"Filter_Coefficients.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	Filter_ChannelAFirCoefficients
+  20              		.section	.rodata
+  21              		.align	2
+  22              		.type	Filter_ChannelAFirCoefficients, %object
+  23              		.size	Filter_ChannelAFirCoefficients, 340
+  24              	Filter_ChannelAFirCoefficients:
+  25 0000 76       		.byte	118
+  26 0001 0F       		.byte	15
+  27 0002 FF       		.byte	-1
+  28 0003 00       		.byte	0
+  29 0004 B4       		.byte	-76
+  30 0005 0B       		.byte	11
+  31 0006 FF       		.byte	-1
+  32 0007 00       		.byte	0
+  33 0008 01       		.byte	1
+  34 0009 08       		.byte	8
+  35 000a FF       		.byte	-1
+  36 000b 00       		.byte	0
+  37 000c 5E       		.byte	94
+  38 000d 04       		.byte	4
+  39 000e FF       		.byte	-1
+  40 000f 00       		.byte	0
+  41 0010 CB       		.byte	-53
+  42 0011 00       		.byte	0
+  43 0012 FF       		.byte	-1
+  44 0013 00       		.byte	0
+  45 0014 48       		.byte	72
+  46 0015 FD       		.byte	-3
+  47 0016 FE       		.byte	-2
+  48 0017 00       		.byte	0
+  49 0018 D8       		.byte	-40
+  50 0019 F9       		.byte	-7
+  51 001a FE       		.byte	-2
+  52 001b 00       		.byte	0
+  53 001c 78       		.byte	120
+  54 001d F6       		.byte	-10
+  55 001e FE       		.byte	-2
+  56 001f 00       		.byte	0
+  57 0020 2C       		.byte	44
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 2
+
+
+  58 0021 F3       		.byte	-13
+  59 0022 FE       		.byte	-2
+  60 0023 00       		.byte	0
+  61 0024 F2       		.byte	-14
+  62 0025 EF       		.byte	-17
+  63 0026 FE       		.byte	-2
+  64 0027 00       		.byte	0
+  65 0028 CB       		.byte	-53
+  66 0029 EC       		.byte	-20
+  67 002a FE       		.byte	-2
+  68 002b 00       		.byte	0
+  69 002c B8       		.byte	-72
+  70 002d E9       		.byte	-23
+  71 002e FE       		.byte	-2
+  72 002f 00       		.byte	0
+  73 0030 B9       		.byte	-71
+  74 0031 E6       		.byte	-26
+  75 0032 FE       		.byte	-2
+  76 0033 00       		.byte	0
+  77 0034 CE       		.byte	-50
+  78 0035 E3       		.byte	-29
+  79 0036 FE       		.byte	-2
+  80 0037 00       		.byte	0
+  81 0038 F9       		.byte	-7
+  82 0039 E0       		.byte	-32
+  83 003a FE       		.byte	-2
+  84 003b 00       		.byte	0
+  85 003c 39       		.byte	57
+  86 003d DE       		.byte	-34
+  87 003e FE       		.byte	-2
+  88 003f 00       		.byte	0
+  89 0040 90       		.byte	-112
+  90 0041 DB       		.byte	-37
+  91 0042 FE       		.byte	-2
+  92 0043 00       		.byte	0
+  93 0044 FC       		.byte	-4
+  94 0045 D8       		.byte	-40
+  95 0046 FE       		.byte	-2
+  96 0047 00       		.byte	0
+  97 0048 7F       		.byte	127
+  98 0049 D6       		.byte	-42
+  99 004a FE       		.byte	-2
+ 100 004b 00       		.byte	0
+ 101 004c 19       		.byte	25
+ 102 004d D4       		.byte	-44
+ 103 004e FE       		.byte	-2
+ 104 004f 00       		.byte	0
+ 105 0050 CB       		.byte	-53
+ 106 0051 D1       		.byte	-47
+ 107 0052 FE       		.byte	-2
+ 108 0053 00       		.byte	0
+ 109 0054 94       		.byte	-108
+ 110 0055 CF       		.byte	-49
+ 111 0056 FE       		.byte	-2
+ 112 0057 00       		.byte	0
+ 113 0058 75       		.byte	117
+ 114 0059 CD       		.byte	-51
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 3
+
+
+ 115 005a FE       		.byte	-2
+ 116 005b 00       		.byte	0
+ 117 005c 6F       		.byte	111
+ 118 005d CB       		.byte	-53
+ 119 005e FE       		.byte	-2
+ 120 005f 00       		.byte	0
+ 121 0060 82       		.byte	-126
+ 122 0061 C9       		.byte	-55
+ 123 0062 FE       		.byte	-2
+ 124 0063 00       		.byte	0
+ 125 0064 AD       		.byte	-83
+ 126 0065 C7       		.byte	-57
+ 127 0066 FE       		.byte	-2
+ 128 0067 00       		.byte	0
+ 129 0068 F2       		.byte	-14
+ 130 0069 C5       		.byte	-59
+ 131 006a FE       		.byte	-2
+ 132 006b 00       		.byte	0
+ 133 006c 50       		.byte	80
+ 134 006d C4       		.byte	-60
+ 135 006e FE       		.byte	-2
+ 136 006f 00       		.byte	0
+ 137 0070 C8       		.byte	-56
+ 138 0071 C2       		.byte	-62
+ 139 0072 FE       		.byte	-2
+ 140 0073 00       		.byte	0
+ 141 0074 5B       		.byte	91
+ 142 0075 C1       		.byte	-63
+ 143 0076 FE       		.byte	-2
+ 144 0077 00       		.byte	0
+ 145 0078 07       		.byte	7
+ 146 0079 C0       		.byte	-64
+ 147 007a FE       		.byte	-2
+ 148 007b 00       		.byte	0
+ 149 007c CE       		.byte	-50
+ 150 007d BE       		.byte	-66
+ 151 007e FE       		.byte	-2
+ 152 007f 00       		.byte	0
+ 153 0080 AF       		.byte	-81
+ 154 0081 BD       		.byte	-67
+ 155 0082 FE       		.byte	-2
+ 156 0083 00       		.byte	0
+ 157 0084 AB       		.byte	-85
+ 158 0085 BC       		.byte	-68
+ 159 0086 FE       		.byte	-2
+ 160 0087 00       		.byte	0
+ 161 0088 C2       		.byte	-62
+ 162 0089 BB       		.byte	-69
+ 163 008a FE       		.byte	-2
+ 164 008b 00       		.byte	0
+ 165 008c F4       		.byte	-12
+ 166 008d BA       		.byte	-70
+ 167 008e FE       		.byte	-2
+ 168 008f 00       		.byte	0
+ 169 0090 42       		.byte	66
+ 170 0091 BA       		.byte	-70
+ 171 0092 FE       		.byte	-2
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 4
+
+
+ 172 0093 00       		.byte	0
+ 173 0094 AA       		.byte	-86
+ 174 0095 B9       		.byte	-71
+ 175 0096 FE       		.byte	-2
+ 176 0097 00       		.byte	0
+ 177 0098 2F       		.byte	47
+ 178 0099 B9       		.byte	-71
+ 179 009a FE       		.byte	-2
+ 180 009b 00       		.byte	0
+ 181 009c CE       		.byte	-50
+ 182 009d B8       		.byte	-72
+ 183 009e FE       		.byte	-2
+ 184 009f 00       		.byte	0
+ 185 00a0 89       		.byte	-119
+ 186 00a1 B8       		.byte	-72
+ 187 00a2 FE       		.byte	-2
+ 188 00a3 00       		.byte	0
+ 189 00a4 60       		.byte	96
+ 190 00a5 B8       		.byte	-72
+ 191 00a6 FE       		.byte	-2
+ 192 00a7 00       		.byte	0
+ 193 00a8 52       		.byte	82
+ 194 00a9 B8       		.byte	-72
+ 195 00aa 7E       		.byte	126
+ 196 00ab 00       		.byte	0
+ 197 00ac 60       		.byte	96
+ 198 00ad B8       		.byte	-72
+ 199 00ae FE       		.byte	-2
+ 200 00af 00       		.byte	0
+ 201 00b0 89       		.byte	-119
+ 202 00b1 B8       		.byte	-72
+ 203 00b2 FE       		.byte	-2
+ 204 00b3 00       		.byte	0
+ 205 00b4 CE       		.byte	-50
+ 206 00b5 B8       		.byte	-72
+ 207 00b6 FE       		.byte	-2
+ 208 00b7 00       		.byte	0
+ 209 00b8 2F       		.byte	47
+ 210 00b9 B9       		.byte	-71
+ 211 00ba FE       		.byte	-2
+ 212 00bb 00       		.byte	0
+ 213 00bc AA       		.byte	-86
+ 214 00bd B9       		.byte	-71
+ 215 00be FE       		.byte	-2
+ 216 00bf 00       		.byte	0
+ 217 00c0 42       		.byte	66
+ 218 00c1 BA       		.byte	-70
+ 219 00c2 FE       		.byte	-2
+ 220 00c3 00       		.byte	0
+ 221 00c4 F4       		.byte	-12
+ 222 00c5 BA       		.byte	-70
+ 223 00c6 FE       		.byte	-2
+ 224 00c7 00       		.byte	0
+ 225 00c8 C2       		.byte	-62
+ 226 00c9 BB       		.byte	-69
+ 227 00ca FE       		.byte	-2
+ 228 00cb 00       		.byte	0
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 5
+
+
+ 229 00cc AB       		.byte	-85
+ 230 00cd BC       		.byte	-68
+ 231 00ce FE       		.byte	-2
+ 232 00cf 00       		.byte	0
+ 233 00d0 AF       		.byte	-81
+ 234 00d1 BD       		.byte	-67
+ 235 00d2 FE       		.byte	-2
+ 236 00d3 00       		.byte	0
+ 237 00d4 CE       		.byte	-50
+ 238 00d5 BE       		.byte	-66
+ 239 00d6 FE       		.byte	-2
+ 240 00d7 00       		.byte	0
+ 241 00d8 07       		.byte	7
+ 242 00d9 C0       		.byte	-64
+ 243 00da FE       		.byte	-2
+ 244 00db 00       		.byte	0
+ 245 00dc 5B       		.byte	91
+ 246 00dd C1       		.byte	-63
+ 247 00de FE       		.byte	-2
+ 248 00df 00       		.byte	0
+ 249 00e0 C8       		.byte	-56
+ 250 00e1 C2       		.byte	-62
+ 251 00e2 FE       		.byte	-2
+ 252 00e3 00       		.byte	0
+ 253 00e4 50       		.byte	80
+ 254 00e5 C4       		.byte	-60
+ 255 00e6 FE       		.byte	-2
+ 256 00e7 00       		.byte	0
+ 257 00e8 F2       		.byte	-14
+ 258 00e9 C5       		.byte	-59
+ 259 00ea FE       		.byte	-2
+ 260 00eb 00       		.byte	0
+ 261 00ec AD       		.byte	-83
+ 262 00ed C7       		.byte	-57
+ 263 00ee FE       		.byte	-2
+ 264 00ef 00       		.byte	0
+ 265 00f0 82       		.byte	-126
+ 266 00f1 C9       		.byte	-55
+ 267 00f2 FE       		.byte	-2
+ 268 00f3 00       		.byte	0
+ 269 00f4 6F       		.byte	111
+ 270 00f5 CB       		.byte	-53
+ 271 00f6 FE       		.byte	-2
+ 272 00f7 00       		.byte	0
+ 273 00f8 75       		.byte	117
+ 274 00f9 CD       		.byte	-51
+ 275 00fa FE       		.byte	-2
+ 276 00fb 00       		.byte	0
+ 277 00fc 94       		.byte	-108
+ 278 00fd CF       		.byte	-49
+ 279 00fe FE       		.byte	-2
+ 280 00ff 00       		.byte	0
+ 281 0100 CB       		.byte	-53
+ 282 0101 D1       		.byte	-47
+ 283 0102 FE       		.byte	-2
+ 284 0103 00       		.byte	0
+ 285 0104 19       		.byte	25
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 6
+
+
+ 286 0105 D4       		.byte	-44
+ 287 0106 FE       		.byte	-2
+ 288 0107 00       		.byte	0
+ 289 0108 7F       		.byte	127
+ 290 0109 D6       		.byte	-42
+ 291 010a FE       		.byte	-2
+ 292 010b 00       		.byte	0
+ 293 010c FC       		.byte	-4
+ 294 010d D8       		.byte	-40
+ 295 010e FE       		.byte	-2
+ 296 010f 00       		.byte	0
+ 297 0110 90       		.byte	-112
+ 298 0111 DB       		.byte	-37
+ 299 0112 FE       		.byte	-2
+ 300 0113 00       		.byte	0
+ 301 0114 39       		.byte	57
+ 302 0115 DE       		.byte	-34
+ 303 0116 FE       		.byte	-2
+ 304 0117 00       		.byte	0
+ 305 0118 F9       		.byte	-7
+ 306 0119 E0       		.byte	-32
+ 307 011a FE       		.byte	-2
+ 308 011b 00       		.byte	0
+ 309 011c CE       		.byte	-50
+ 310 011d E3       		.byte	-29
+ 311 011e FE       		.byte	-2
+ 312 011f 00       		.byte	0
+ 313 0120 B9       		.byte	-71
+ 314 0121 E6       		.byte	-26
+ 315 0122 FE       		.byte	-2
+ 316 0123 00       		.byte	0
+ 317 0124 B8       		.byte	-72
+ 318 0125 E9       		.byte	-23
+ 319 0126 FE       		.byte	-2
+ 320 0127 00       		.byte	0
+ 321 0128 CB       		.byte	-53
+ 322 0129 EC       		.byte	-20
+ 323 012a FE       		.byte	-2
+ 324 012b 00       		.byte	0
+ 325 012c F2       		.byte	-14
+ 326 012d EF       		.byte	-17
+ 327 012e FE       		.byte	-2
+ 328 012f 00       		.byte	0
+ 329 0130 2C       		.byte	44
+ 330 0131 F3       		.byte	-13
+ 331 0132 FE       		.byte	-2
+ 332 0133 00       		.byte	0
+ 333 0134 78       		.byte	120
+ 334 0135 F6       		.byte	-10
+ 335 0136 FE       		.byte	-2
+ 336 0137 00       		.byte	0
+ 337 0138 D8       		.byte	-40
+ 338 0139 F9       		.byte	-7
+ 339 013a FE       		.byte	-2
+ 340 013b 00       		.byte	0
+ 341 013c 48       		.byte	72
+ 342 013d FD       		.byte	-3
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 7
+
+
+ 343 013e FE       		.byte	-2
+ 344 013f 00       		.byte	0
+ 345 0140 CB       		.byte	-53
+ 346 0141 00       		.byte	0
+ 347 0142 FF       		.byte	-1
+ 348 0143 00       		.byte	0
+ 349 0144 5E       		.byte	94
+ 350 0145 04       		.byte	4
+ 351 0146 FF       		.byte	-1
+ 352 0147 00       		.byte	0
+ 353 0148 01       		.byte	1
+ 354 0149 08       		.byte	8
+ 355 014a FF       		.byte	-1
+ 356 014b 00       		.byte	0
+ 357 014c B4       		.byte	-76
+ 358 014d 0B       		.byte	11
+ 359 014e FF       		.byte	-1
+ 360 014f 00       		.byte	0
+ 361 0150 76       		.byte	118
+ 362 0151 0F       		.byte	15
+ 363 0152 FF       		.byte	-1
+ 364 0153 00       		.byte	0
+ 365              		.text
+ 366              	.Letext0:
+ 367              		.file 1 "Generated_Source\\PSoC5\\cytypes.h"
+ 368              		.file 2 "Generated_Source\\PSoC5\\Filter_Coefficients.c"
+ 369              		.section	.debug_info,"",%progbits
+ 370              	.Ldebug_info0:
+ 371 0000 BB000000 		.4byte	0xbb
+ 372 0004 0400     		.2byte	0x4
+ 373 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 374 000a 04       		.byte	0x4
+ 375 000b 01       		.uleb128 0x1
+ 376 000c 1B000000 		.4byte	.LASF14
+ 377 0010 0C       		.byte	0xc
+ 378 0011 7D010000 		.4byte	.LASF15
+ 379 0015 DE000000 		.4byte	.LASF16
+ 380 0019 00000000 		.4byte	.Ldebug_line0
+ 381 001d 02       		.uleb128 0x2
+ 382 001e 04       		.byte	0x4
+ 383 001f 05       		.byte	0x5
+ 384 0020 696E7400 		.ascii	"int\000"
+ 385 0024 03       		.uleb128 0x3
+ 386 0025 04       		.byte	0x4
+ 387 0026 07       		.byte	0x7
+ 388 0027 0E000000 		.4byte	.LASF0
+ 389 002b 03       		.uleb128 0x3
+ 390 002c 08       		.byte	0x8
+ 391 002d 05       		.byte	0x5
+ 392 002e 00000000 		.4byte	.LASF1
+ 393 0032 03       		.uleb128 0x3
+ 394 0033 08       		.byte	0x8
+ 395 0034 04       		.byte	0x4
+ 396 0035 3F010000 		.4byte	.LASF2
+ 397 0039 03       		.uleb128 0x3
+ 398 003a 01       		.byte	0x1
+ 399 003b 06       		.byte	0x6
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 8
+
+
+ 400 003c 33010000 		.4byte	.LASF3
+ 401 0040 03       		.uleb128 0x3
+ 402 0041 01       		.byte	0x1
+ 403 0042 08       		.byte	0x8
+ 404 0043 FD000000 		.4byte	.LASF4
+ 405 0047 03       		.uleb128 0x3
+ 406 0048 02       		.byte	0x2
+ 407 0049 05       		.byte	0x5
+ 408 004a 4B010000 		.4byte	.LASF5
+ 409 004e 03       		.uleb128 0x3
+ 410 004f 02       		.byte	0x2
+ 411 0050 07       		.byte	0x7
+ 412 0051 20010000 		.4byte	.LASF6
+ 413 0055 03       		.uleb128 0x3
+ 414 0056 04       		.byte	0x4
+ 415 0057 05       		.byte	0x5
+ 416 0058 10010000 		.4byte	.LASF7
+ 417 005c 03       		.uleb128 0x3
+ 418 005d 04       		.byte	0x4
+ 419 005e 07       		.byte	0x7
+ 420 005f AF000000 		.4byte	.LASF8
+ 421 0063 03       		.uleb128 0x3
+ 422 0064 08       		.byte	0x8
+ 423 0065 07       		.byte	0x7
+ 424 0066 C1000000 		.4byte	.LASF9
+ 425 006a 03       		.uleb128 0x3
+ 426 006b 04       		.byte	0x4
+ 427 006c 07       		.byte	0x7
+ 428 006d 74010000 		.4byte	.LASF10
+ 429 0071 03       		.uleb128 0x3
+ 430 0072 01       		.byte	0x1
+ 431 0073 08       		.byte	0x8
+ 432 0074 0B010000 		.4byte	.LASF11
+ 433 0078 04       		.uleb128 0x4
+ 434 0079 A9000000 		.4byte	.LASF17
+ 435 007d 01       		.byte	0x1
+ 436 007e E401     		.2byte	0x1e4
+ 437 0080 40000000 		.4byte	0x40
+ 438 0084 03       		.uleb128 0x3
+ 439 0085 04       		.byte	0x4
+ 440 0086 04       		.byte	0x4
+ 441 0087 D8000000 		.4byte	.LASF12
+ 442 008b 03       		.uleb128 0x3
+ 443 008c 08       		.byte	0x8
+ 444 008d 04       		.byte	0x4
+ 445 008e 19010000 		.4byte	.LASF13
+ 446 0092 05       		.uleb128 0x5
+ 447 0093 A3000000 		.4byte	0xa3
+ 448 0097 A3000000 		.4byte	0xa3
+ 449 009b 06       		.uleb128 0x6
+ 450 009c 6A000000 		.4byte	0x6a
+ 451 00a0 5301     		.2byte	0x153
+ 452 00a2 00       		.byte	0
+ 453 00a3 07       		.uleb128 0x7
+ 454 00a4 78000000 		.4byte	0x78
+ 455 00a8 08       		.uleb128 0x8
+ 456 00a9 55010000 		.4byte	.LASF18
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 9
+
+
+ 457 00ad 02       		.byte	0x2
+ 458 00ae 11       		.byte	0x11
+ 459 00af B9000000 		.4byte	0xb9
+ 460 00b3 05       		.uleb128 0x5
+ 461 00b4 03       		.byte	0x3
+ 462 00b5 00000000 		.4byte	Filter_ChannelAFirCoefficients
+ 463 00b9 07       		.uleb128 0x7
+ 464 00ba 92000000 		.4byte	0x92
+ 465 00be 00       		.byte	0
+ 466              		.section	.debug_abbrev,"",%progbits
+ 467              	.Ldebug_abbrev0:
+ 468 0000 01       		.uleb128 0x1
+ 469 0001 11       		.uleb128 0x11
+ 470 0002 01       		.byte	0x1
+ 471 0003 25       		.uleb128 0x25
+ 472 0004 0E       		.uleb128 0xe
+ 473 0005 13       		.uleb128 0x13
+ 474 0006 0B       		.uleb128 0xb
+ 475 0007 03       		.uleb128 0x3
+ 476 0008 0E       		.uleb128 0xe
+ 477 0009 1B       		.uleb128 0x1b
+ 478 000a 0E       		.uleb128 0xe
+ 479 000b 10       		.uleb128 0x10
+ 480 000c 17       		.uleb128 0x17
+ 481 000d 00       		.byte	0
+ 482 000e 00       		.byte	0
+ 483 000f 02       		.uleb128 0x2
+ 484 0010 24       		.uleb128 0x24
+ 485 0011 00       		.byte	0
+ 486 0012 0B       		.uleb128 0xb
+ 487 0013 0B       		.uleb128 0xb
+ 488 0014 3E       		.uleb128 0x3e
+ 489 0015 0B       		.uleb128 0xb
+ 490 0016 03       		.uleb128 0x3
+ 491 0017 08       		.uleb128 0x8
+ 492 0018 00       		.byte	0
+ 493 0019 00       		.byte	0
+ 494 001a 03       		.uleb128 0x3
+ 495 001b 24       		.uleb128 0x24
+ 496 001c 00       		.byte	0
+ 497 001d 0B       		.uleb128 0xb
+ 498 001e 0B       		.uleb128 0xb
+ 499 001f 3E       		.uleb128 0x3e
+ 500 0020 0B       		.uleb128 0xb
+ 501 0021 03       		.uleb128 0x3
+ 502 0022 0E       		.uleb128 0xe
+ 503 0023 00       		.byte	0
+ 504 0024 00       		.byte	0
+ 505 0025 04       		.uleb128 0x4
+ 506 0026 16       		.uleb128 0x16
+ 507 0027 00       		.byte	0
+ 508 0028 03       		.uleb128 0x3
+ 509 0029 0E       		.uleb128 0xe
+ 510 002a 3A       		.uleb128 0x3a
+ 511 002b 0B       		.uleb128 0xb
+ 512 002c 3B       		.uleb128 0x3b
+ 513 002d 05       		.uleb128 0x5
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 10
+
+
+ 514 002e 49       		.uleb128 0x49
+ 515 002f 13       		.uleb128 0x13
+ 516 0030 00       		.byte	0
+ 517 0031 00       		.byte	0
+ 518 0032 05       		.uleb128 0x5
+ 519 0033 01       		.uleb128 0x1
+ 520 0034 01       		.byte	0x1
+ 521 0035 49       		.uleb128 0x49
+ 522 0036 13       		.uleb128 0x13
+ 523 0037 01       		.uleb128 0x1
+ 524 0038 13       		.uleb128 0x13
+ 525 0039 00       		.byte	0
+ 526 003a 00       		.byte	0
+ 527 003b 06       		.uleb128 0x6
+ 528 003c 21       		.uleb128 0x21
+ 529 003d 00       		.byte	0
+ 530 003e 49       		.uleb128 0x49
+ 531 003f 13       		.uleb128 0x13
+ 532 0040 2F       		.uleb128 0x2f
+ 533 0041 05       		.uleb128 0x5
+ 534 0042 00       		.byte	0
+ 535 0043 00       		.byte	0
+ 536 0044 07       		.uleb128 0x7
+ 537 0045 26       		.uleb128 0x26
+ 538 0046 00       		.byte	0
+ 539 0047 49       		.uleb128 0x49
+ 540 0048 13       		.uleb128 0x13
+ 541 0049 00       		.byte	0
+ 542 004a 00       		.byte	0
+ 543 004b 08       		.uleb128 0x8
+ 544 004c 34       		.uleb128 0x34
+ 545 004d 00       		.byte	0
+ 546 004e 03       		.uleb128 0x3
+ 547 004f 0E       		.uleb128 0xe
+ 548 0050 3A       		.uleb128 0x3a
+ 549 0051 0B       		.uleb128 0xb
+ 550 0052 3B       		.uleb128 0x3b
+ 551 0053 0B       		.uleb128 0xb
+ 552 0054 49       		.uleb128 0x49
+ 553 0055 13       		.uleb128 0x13
+ 554 0056 3F       		.uleb128 0x3f
+ 555 0057 19       		.uleb128 0x19
+ 556 0058 02       		.uleb128 0x2
+ 557 0059 18       		.uleb128 0x18
+ 558 005a 00       		.byte	0
+ 559 005b 00       		.byte	0
+ 560 005c 00       		.byte	0
+ 561              		.section	.debug_aranges,"",%progbits
+ 562 0000 14000000 		.4byte	0x14
+ 563 0004 0200     		.2byte	0x2
+ 564 0006 00000000 		.4byte	.Ldebug_info0
+ 565 000a 04       		.byte	0x4
+ 566 000b 00       		.byte	0
+ 567 000c 0000     		.2byte	0
+ 568 000e 0000     		.2byte	0
+ 569 0010 00000000 		.4byte	0
+ 570 0014 00000000 		.4byte	0
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 11
+
+
+ 571              		.section	.debug_line,"",%progbits
+ 572              	.Ldebug_line0:
+ 573 0000 56000000 		.section	.debug_str,"MS",%progbits,1
+ 573      02005000 
+ 573      00000201 
+ 573      FB0E0D00 
+ 573      01010101 
+ 574              	.LASF1:
+ 575 0000 6C6F6E67 		.ascii	"long long int\000"
+ 575      206C6F6E 
+ 575      6720696E 
+ 575      7400
+ 576              	.LASF0:
+ 577 000e 756E7369 		.ascii	"unsigned int\000"
+ 577      676E6564 
+ 577      20696E74 
+ 577      00
+ 578              	.LASF14:
+ 579 001b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 579      43313120 
+ 579      352E342E 
+ 579      31203230 
+ 579      31363036 
+ 580 004e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 580      20726576 
+ 580      6973696F 
+ 580      6E203233 
+ 580      37373135 
+ 581 0081 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 581      66756E63 
+ 581      74696F6E 
+ 581      2D736563 
+ 581      74696F6E 
+ 582              	.LASF17:
+ 583 00a9 75696E74 		.ascii	"uint8\000"
+ 583      3800
+ 584              	.LASF8:
+ 585 00af 6C6F6E67 		.ascii	"long unsigned int\000"
+ 585      20756E73 
+ 585      69676E65 
+ 585      6420696E 
+ 585      7400
+ 586              	.LASF9:
+ 587 00c1 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 587      206C6F6E 
+ 587      6720756E 
+ 587      7369676E 
+ 587      65642069 
+ 588              	.LASF12:
+ 589 00d8 666C6F61 		.ascii	"float\000"
+ 589      7400
+ 590              	.LASF16:
+ 591 00de 473A5C52 		.ascii	"G:\\RxSinRuio\\00_Basic_Rx.cydsn\000"
+ 591      7853696E 
+ 591      5275696F 
+ 591      5C30305F 
+ 591      42617369 
+ARM GAS  C:\Users\USER\AppData\Local\Temp\ccsFPa4j.s 			page 12
+
+
+ 592              	.LASF4:
+ 593 00fd 756E7369 		.ascii	"unsigned char\000"
+ 593      676E6564 
+ 593      20636861 
+ 593      7200
+ 594              	.LASF11:
+ 595 010b 63686172 		.ascii	"char\000"
+ 595      00
+ 596              	.LASF7:
+ 597 0110 6C6F6E67 		.ascii	"long int\000"
+ 597      20696E74 
+ 597      00
+ 598              	.LASF13:
+ 599 0119 646F7562 		.ascii	"double\000"
+ 599      6C6500
+ 600              	.LASF6:
+ 601 0120 73686F72 		.ascii	"short unsigned int\000"
+ 601      7420756E 
+ 601      7369676E 
+ 601      65642069 
+ 601      6E7400
+ 602              	.LASF3:
+ 603 0133 7369676E 		.ascii	"signed char\000"
+ 603      65642063 
+ 603      68617200 
+ 604              	.LASF2:
+ 605 013f 6C6F6E67 		.ascii	"long double\000"
+ 605      20646F75 
+ 605      626C6500 
+ 606              	.LASF5:
+ 607 014b 73686F72 		.ascii	"short int\000"
+ 607      7420696E 
+ 607      7400
+ 608              	.LASF18:
+ 609 0155 46696C74 		.ascii	"Filter_ChannelAFirCoefficients\000"
+ 609      65725F43 
+ 609      68616E6E 
+ 609      656C4146 
+ 609      6972436F 
+ 610              	.LASF10:
+ 611 0174 73697A65 		.ascii	"sizetype\000"
+ 611      74797065 
+ 611      00
+ 612              	.LASF15:
+ 613 017d 47656E65 		.ascii	"Generated_Source\\PSoC5\\Filter_Coefficients.c\000"
+ 613      72617465 
+ 613      645F536F 
+ 613      75726365 
+ 613      5C50536F 
+ 614              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
